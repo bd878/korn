@@ -2,4 +2,7 @@ a.out
 .git/*
 *.o
 *.ko
-
+*.mod*
+*.cmd
+*.symvers
+*.patch
