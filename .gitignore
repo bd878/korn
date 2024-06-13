@@ -6,3 +6,4 @@ a.out
 *.cmd
 *.symvers
 *.patch
+*.order

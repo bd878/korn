@@ -1,5 +1,6 @@
-obj-m += chardev.o
-obj-m += chardev-2.o
+obj-m += procfs1.o
+obj-m += procfs2.o
+obj-m += procfs3.o
 
 all:
 	make -C /lib/modules/`uname -r`/build M=$(PWD) -k modules
