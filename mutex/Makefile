@@ -1,7 +1,7 @@
-obj-m += sleep.o
-
-cat_nonblock : cat_nonblock.c
-	gcc cat_nonblock.c -o cat_nonblock
+obj-m += example_mutex.o
+obj-m += example_spinlock.o
+obj-m += example_rwlock.o
+obj-m += example_atomic.o
 
 all:
 	make -C /lib/modules/`uname -r`/build M=$(PWD) -k modules
