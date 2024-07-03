@@ -1,6 +1,7 @@
 a.out
 .git/*
 *.o
+*.o.d
 *.ko
 *.mod*
 *.cmd
